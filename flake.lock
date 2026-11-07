@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793876309,
+        "narHash": "sha256-Wojg9lIH/hDH91iDVH2/EPw8oDSpxjxhXONbU1yf4Zg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f9a75f41be3a74eab55d3a7679d34ad6cc0da977",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "vivi-src": "vivi-src"
+      }
+    },
+    "vivi-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794000442,
+        "narHash": "sha256-Zb1ZnCLC+ZCrkbxlHQRRpYxVz7Jf/eckzQxNH0zkmPI=",
+        "owner": "djxnzi",
+        "repo": "vivi",
+        "rev": "a531e1c3448f5b90bff622582b0dca67e1cb9c0c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "djxnzi",
+        "repo": "vivi",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
