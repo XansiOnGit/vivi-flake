@@ -38,7 +38,7 @@ environment.systemPackages = [ pkgs.vivi ];
 ## Update it as you will.
 
 ```bash
-nix flake update
+nix flake update vivi 
 sudo nixos-rebuild switch --flake .#yourhostname
 ```
 
